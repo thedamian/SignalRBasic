@@ -1,0 +1,811 @@
+{
+  "@aspnet/signalr": {
+    "version": "1.1.0",
+    "files": [
+      {
+        "file": "/dist/browser/signalr.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/browser/signalr.js",
+        "local": "wwwroot/lib/@aspnet/signalr/browser/signalr.js",
+        "integrity": "sha384-arDqoUZHdj50mIYqKv5ykvr0yu1WaJbQDpl8SfVv/hhdieJjXVoG/bY6mm7Qyp5x"
+      },
+      {
+        "file": "/dist/browser/signalr.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/browser/signalr.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/browser/signalr.js.map",
+        "integrity": "sha384-LyaKotXcIsb2f639jcL2kdmXBTa1w3MPTuQoJciMmAjwMenEZfwCW0bUagWzS9pu"
+      },
+      {
+        "file": "/dist/browser/signalr.min.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/browser/signalr.min.js",
+        "local": "wwwroot/lib/@aspnet/signalr/browser/signalr.min.js",
+        "integrity": "sha384-gK/ZPLmbS16DARsjcathHT444XqwRRfyUefc8hf3qwoeXoVSi8tk9HvnSgN66AVU"
+      },
+      {
+        "file": "/dist/browser/signalr.min.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/browser/signalr.min.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/browser/signalr.min.js.map",
+        "integrity": "sha384-Ry06XvKkQAjlGTPEeF2K3ojK8q8joVWeG8lhAQjRik3UwBMd0FQ98qKagozw8Uc0"
+      },
+      {
+        "file": "/dist/cjs/AbortController.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/AbortController.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/AbortController.js",
+        "integrity": "sha384-It/v8NgIMTUrG2OogkC6FiFbvwqC5rA95UFS9n2+eFXdHc6yBqTjYyeUuKiUI4hM"
+      },
+      {
+        "file": "/dist/cjs/AbortController.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/AbortController.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/AbortController.js.map",
+        "integrity": "sha384-oOoORr/UBJCvJOzgAgLcfxBG5L6XHd4SkM2hzalAs/01CDhSdHJkng63LFqwjyfP"
+      },
+      {
+        "file": "/dist/cjs/browser-index.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/browser-index.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/browser-index.js",
+        "integrity": "sha384-59VDqmr7J6+8WSgokFLo68P7bPzis1wr38a5v9Sor2J7/iY9NQfiAfIdvQWVOqVN"
+      },
+      {
+        "file": "/dist/cjs/browser-index.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/browser-index.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/browser-index.js.map",
+        "integrity": "sha384-dRjsVElM4w4Pp/Ya6L2A+fp3nljFSd4I8Yj6OYouwWv9ZEikG05Hp+JsfL3S1U+X"
+      },
+      {
+        "file": "/dist/cjs/DefaultHttpClient.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/DefaultHttpClient.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/DefaultHttpClient.js",
+        "integrity": "sha384-RQw25GqoRI1mB06aPpI9ugdyR3HeSvaP1xckOMHqrE2kOaSDHUZu44yT2TN5yC/F"
+      },
+      {
+        "file": "/dist/cjs/DefaultHttpClient.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/DefaultHttpClient.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/DefaultHttpClient.js.map",
+        "integrity": "sha384-rkPAvFodeBqw0sHpYTQnhvwrOxOcTFapfqCeAzocNX9PGVY06Qax09RjaA674ca/"
+      },
+      {
+        "file": "/dist/cjs/Errors.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/Errors.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/Errors.js",
+        "integrity": "sha384-obHQlDT8ugGOu2V8+n2bhjBX9Wm7nxc7LPxcIeOX/9J68enaFhbc9gbWx/ruqA6c"
+      },
+      {
+        "file": "/dist/cjs/Errors.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/Errors.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/Errors.js.map",
+        "integrity": "sha384-I7oXX+wgzDSTyTaEYQuLnZPd2y+WwA/G7bT6Q9fZhzxFXv4MZ/o2xjt/wTFAUCMm"
+      },
+      {
+        "file": "/dist/cjs/HandshakeProtocol.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/HandshakeProtocol.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/HandshakeProtocol.js",
+        "integrity": "sha384-p57ajpZwp7GWKRyBR7hoxdyISAC7b8CLIVHcVPrMy73+57OWGkF1V7KdmHZ4os6a"
+      },
+      {
+        "file": "/dist/cjs/HandshakeProtocol.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/HandshakeProtocol.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/HandshakeProtocol.js.map",
+        "integrity": "sha384-GXE1Ota9VY73bNr3Hy1cXJpsWYxVJPQ6MLhQ6jou8uIi9wMWt7/c16VgKtuvBkCx"
+      },
+      {
+        "file": "/dist/cjs/HttpClient.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/HttpClient.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/HttpClient.js",
+        "integrity": "sha384-cQ/OzTue4NUqwG5aeDmFzkYeQ+Gt1oGRioCJ28UdwbczbyE56jCnA0FoYEf8JjHl"
+      },
+      {
+        "file": "/dist/cjs/HttpClient.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/HttpClient.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/HttpClient.js.map",
+        "integrity": "sha384-MvLzvc93azKEep6n+6veQHY+F+X0NLSL0zGBYQ27bihQkXzxqFeqODOOpZ9ZT8Dn"
+      },
+      {
+        "file": "/dist/cjs/HttpConnection.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/HttpConnection.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/HttpConnection.js",
+        "integrity": "sha384-c1n8FWUbtDsVb8pGRRCc4EIEEU6TUMk3u2XnxJBqgVkCLbQnTKrnfBq/q9zZ0XfR"
+      },
+      {
+        "file": "/dist/cjs/HttpConnection.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/HttpConnection.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/HttpConnection.js.map",
+        "integrity": "sha384-gBqCg7Z4YqmA+XULilDnACgdifpIW3yXlerninjAFhkJbrWlc13g4MLGy9B5N3Fj"
+      },
+      {
+        "file": "/dist/cjs/HubConnection.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/HubConnection.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/HubConnection.js",
+        "integrity": "sha384-uLp3ir8LbhiG9/QBIAwcDtZ/fsRwETnE+Gf54Hom84xlruza20Bp8kwWAcpEBW64"
+      },
+      {
+        "file": "/dist/cjs/HubConnection.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/HubConnection.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/HubConnection.js.map",
+        "integrity": "sha384-0lmqTZ6qCJgRiSlNa1MjInM/5joFj6hcRnY+KlvUflOBd3+BfR14Orij5zY5rAih"
+      },
+      {
+        "file": "/dist/cjs/HubConnectionBuilder.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/HubConnectionBuilder.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/HubConnectionBuilder.js",
+        "integrity": "sha384-yOfKbNJTKuNAtWRNDjOmpDwzf6l6dZpu6vnYOULpOxT0u3ZnvmTgBzTSamSNZIyq"
+      },
+      {
+        "file": "/dist/cjs/HubConnectionBuilder.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/HubConnectionBuilder.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/HubConnectionBuilder.js.map",
+        "integrity": "sha384-ufgqmV3/kQ26szrmREXQ6zxCJtdGQaHIBADZFEc4+1UWiv5GYyFH7MFC+r1eesFF"
+      },
+      {
+        "file": "/dist/cjs/IConnection.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/IConnection.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/IConnection.js",
+        "integrity": "sha384-ZUXHhg1LRR+5U1qLAM7vYkOtz7HT5dPdSkxOS1XvCZc76L8Qf78yHBWvdTUhkqkk"
+      },
+      {
+        "file": "/dist/cjs/IConnection.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/IConnection.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/IConnection.js.map",
+        "integrity": "sha384-GI8R04V6ZyYZHrMCHlS4LRsjCdoBanmN0gN7iVyW4k/k5sEhvacQLpQZgW1SPmhl"
+      },
+      {
+        "file": "/dist/cjs/IHttpConnectionOptions.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/IHttpConnectionOptions.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/IHttpConnectionOptions.js",
+        "integrity": "sha384-wMfNeqkM8mvkl8a85ayf03p9b1CdaRL3DZIfUMSBU/GxVaQ8KsVFvvosbpX7pf4x"
+      },
+      {
+        "file": "/dist/cjs/IHttpConnectionOptions.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/IHttpConnectionOptions.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/IHttpConnectionOptions.js.map",
+        "integrity": "sha384-nRKCqRC0ZJAs4E6bgC/vHrBQMBvoWK6pHSzByib1QRfOPrZD+PN0hydMRFne8d/5"
+      },
+      {
+        "file": "/dist/cjs/IHubProtocol.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/IHubProtocol.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/IHubProtocol.js",
+        "integrity": "sha384-GTOTRkVCH651pGiL/mx+WliCCuYgu8nle8K0kG4+SQDWaByi4VN8mwcV7xjtg6N8"
+      },
+      {
+        "file": "/dist/cjs/IHubProtocol.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/IHubProtocol.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/IHubProtocol.js.map",
+        "integrity": "sha384-CDeU/vFBTwud9OImK3Oy9trL3Qin9V6Phv7akUjREVOPql4dVl769TofnbA3JXko"
+      },
+      {
+        "file": "/dist/cjs/ILogger.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/ILogger.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/ILogger.js",
+        "integrity": "sha384-V3GJKfosugym62El2GqEwG+wPEZg4pTR9txX0Xhp/Y1u6cEwsTc5wY89RsDE77FI"
+      },
+      {
+        "file": "/dist/cjs/ILogger.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/ILogger.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/ILogger.js.map",
+        "integrity": "sha384-c9OLdPEGsXNQIERI1QyuGkK+ZcTBh4gnjEd6nYuvUnYHU8QU/8TPLBLWCjjPCN8F"
+      },
+      {
+        "file": "/dist/cjs/index.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/index.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/index.js",
+        "integrity": "sha384-qgv+SQn7qtqdG+gJOuhF5ORV3Q3nHhehAsdi08D7UBK1suBUfh2lZuoAvOQYXp6j"
+      },
+      {
+        "file": "/dist/cjs/index.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/index.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/index.js.map",
+        "integrity": "sha384-XokQ1m2akemXVzGLV1xhLxnwyDqiqXUe08PKZlq6PGs98A6Z/oRgeP3D2b3NePk1"
+      },
+      {
+        "file": "/dist/cjs/ITransport.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/ITransport.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/ITransport.js",
+        "integrity": "sha384-oN4XcaiqMHzEIPOeAyj/ft73QY+yHNqwj1VSgbQ42OkIGBYxkIJbceJrRDuoQsQ8"
+      },
+      {
+        "file": "/dist/cjs/ITransport.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/ITransport.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/ITransport.js.map",
+        "integrity": "sha384-z3xzCHifUdskgzi8RJT0FbnZ9BQFwkv7VXtUJhSh5GHtBlMHulk/EnRiYrHG3KIs"
+      },
+      {
+        "file": "/dist/cjs/JsonHubProtocol.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/JsonHubProtocol.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/JsonHubProtocol.js",
+        "integrity": "sha384-ozp8/Ad9J1rGcdwK0cYHOHp4P+R7+Ug6NjYw2TXwd9Ou3+DKusz66NAbeGrxVE3t"
+      },
+      {
+        "file": "/dist/cjs/JsonHubProtocol.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/JsonHubProtocol.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/JsonHubProtocol.js.map",
+        "integrity": "sha384-58DVkNHzCVkA/gk+8glZsrJ/3QPbwhvAZEjbyXNVaprqv+9NbUSpt108kzi7wJap"
+      },
+      {
+        "file": "/dist/cjs/Loggers.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/Loggers.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/Loggers.js",
+        "integrity": "sha384-Ijdz1I9lGHpHJW2Upqz1zQnh0pbOAmFmvfQKaMiKn/VnIznpKLCnfDN4BcKIRAb/"
+      },
+      {
+        "file": "/dist/cjs/Loggers.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/Loggers.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/Loggers.js.map",
+        "integrity": "sha384-CGMQVlpVB+/wNQW6eiYy9McNTJeZCSKtH9daJO2OFlTAFWa20XbuptL62TutGtS0"
+      },
+      {
+        "file": "/dist/cjs/LongPollingTransport.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/LongPollingTransport.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/LongPollingTransport.js",
+        "integrity": "sha384-kQvgKmTI0xnLLa+Tg2Mfoc/EGtQa6agozD9CkbFCEEnG+DGzqFFtRXxIQdpGc49L"
+      },
+      {
+        "file": "/dist/cjs/LongPollingTransport.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/LongPollingTransport.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/LongPollingTransport.js.map",
+        "integrity": "sha384-bS/OeqqMbXuU3iNIyZaAgnPLSLVq0gHtr3Hj2xlU5HTrsS8qO8K6JGF+98O61SZG"
+      },
+      {
+        "file": "/dist/cjs/NodeHttpClient.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/NodeHttpClient.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/NodeHttpClient.js",
+        "integrity": "sha384-bfFQfW1buspRjmyfc6BqlQL1ef5RxslNG8KvgY7CUBjdUbAjvrkaLYR8HHPZjEeO"
+      },
+      {
+        "file": "/dist/cjs/NodeHttpClient.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/NodeHttpClient.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/NodeHttpClient.js.map",
+        "integrity": "sha384-QSVW6rHR2vDzDuU0K8+7AHdfltgn62LHuVpTmANe0/JLAQcdLycZyGEBvdrXq1wb"
+      },
+      {
+        "file": "/dist/cjs/Polyfills.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/Polyfills.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/Polyfills.js",
+        "integrity": "sha384-9PCJLQE7x3qO17BxmgqSmF5KkIa28nKx2/bMtr7cHQQhZToz09xKVSfIzKCHtz3z"
+      },
+      {
+        "file": "/dist/cjs/Polyfills.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/Polyfills.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/Polyfills.js.map",
+        "integrity": "sha384-rMH+9UKAqvjmSOU7VtTc80TLuYnibAEprfLIdWVN3DURGrZnZqWyYs8M8BPY7MKI"
+      },
+      {
+        "file": "/dist/cjs/ServerSentEventsTransport.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/ServerSentEventsTransport.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/ServerSentEventsTransport.js",
+        "integrity": "sha384-f3uPMBstbTEcBw9YV+c2sZ3bhz5elh++yzEDu0bB7mCKvaOUAjhMSJDFQnxNzPLV"
+      },
+      {
+        "file": "/dist/cjs/ServerSentEventsTransport.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/ServerSentEventsTransport.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/ServerSentEventsTransport.js.map",
+        "integrity": "sha384-W/qizQZTKYycfNWr6ujtRVnX1/yPspRsiDknr04rGR8RR12R6jCTsCPdlwtKu8OG"
+      },
+      {
+        "file": "/dist/cjs/Stream.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/Stream.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/Stream.js",
+        "integrity": "sha384-L8peEUNXLefbpw9Q+cYzPhrdIxETstoTMDbF+u2v0KLmYJw4jiZgIJ/6rrUljjXy"
+      },
+      {
+        "file": "/dist/cjs/Stream.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/Stream.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/Stream.js.map",
+        "integrity": "sha384-bfqmgl3SOSNHTaOi6j8riB/esIcoDjSsIRCz7XoNsX469yG5mfVGva1vBdlk04IF"
+      },
+      {
+        "file": "/dist/cjs/TextMessageFormat.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/TextMessageFormat.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/TextMessageFormat.js",
+        "integrity": "sha384-5dgpzfrEaLOaIWQ/SAf90twy4vq2WjIEcrWXgV5743WKH9ord84cNvAMWsBLRRi/"
+      },
+      {
+        "file": "/dist/cjs/TextMessageFormat.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/TextMessageFormat.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/TextMessageFormat.js.map",
+        "integrity": "sha384-9+6Ob6h7OnGPNvDKXrgEggVrx0Hx2SMYmwSg+xuFEHdfLddBKb6WKlxYA5Ef7Be2"
+      },
+      {
+        "file": "/dist/cjs/Utils.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/Utils.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/Utils.js",
+        "integrity": "sha384-qciqT2d+HHVGaAfGinHG/1GSi9Wt4nOw8fwxvMgK/6SweCTXnjwlSuPm9Eb9P0Ol"
+      },
+      {
+        "file": "/dist/cjs/Utils.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/Utils.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/Utils.js.map",
+        "integrity": "sha384-P+IMNORSRgUnrg8jIUPUjcHquqpNsBd3Vo3W8+fW/rWReV33jmdU98HD7vjNDwDP"
+      },
+      {
+        "file": "/dist/cjs/WebSocketTransport.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/WebSocketTransport.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/WebSocketTransport.js",
+        "integrity": "sha384-BV085HccOT4QUkj0UNi7wYPMLAz+xWbOpYPxO+5GBjVHnlA3X91JMmnfFGnKYpF1"
+      },
+      {
+        "file": "/dist/cjs/WebSocketTransport.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/WebSocketTransport.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/WebSocketTransport.js.map",
+        "integrity": "sha384-TcUpQlvIlrglcFw8skUQ4C9xAI1215Kd/bpL1eNuLiadey1gtLqrduTAkjNAOuEK"
+      },
+      {
+        "file": "/dist/cjs/XhrHttpClient.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/XhrHttpClient.js",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/XhrHttpClient.js",
+        "integrity": "sha384-awcWZ4yWvH0usaf5qUhWajl2op+OY3um7BQYZadfolHu85Y7FNfy51PHjjCEDbSb"
+      },
+      {
+        "file": "/dist/cjs/XhrHttpClient.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/cjs/XhrHttpClient.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/cjs/XhrHttpClient.js.map",
+        "integrity": "sha384-kvOLqeMHND8wFBRHoZDtcYvRNgUI41XB0O+aPGG2uJHZusIvjuWN2/yKn4a5nyqi"
+      },
+      {
+        "file": "/dist/esm/AbortController.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/AbortController.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/AbortController.d.ts",
+        "integrity": "sha384-beUO0d9kmYDDd+B2IqpLvNBPgrlHJtuTwIHkwEmIHmhzBnZY8VMkFrbZqQRgwJXd"
+      },
+      {
+        "file": "/dist/esm/AbortController.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/AbortController.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/AbortController.js",
+        "integrity": "sha384-btefDtLgIe7av/7aDF1tuHnHSyMlRwepc/f7Ws1LyMgcQw51w4tw2abo7wm9/Ang"
+      },
+      {
+        "file": "/dist/esm/AbortController.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/AbortController.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/AbortController.js.map",
+        "integrity": "sha384-IAWKoU7bcwLOw/0gcIiRnE16TcnVyXhOqdcC5mMY3kx8EhQKbfqDyB6Zcpfoc5is"
+      },
+      {
+        "file": "/dist/esm/browser-index.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/browser-index.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/browser-index.d.ts",
+        "integrity": "sha384-2UmxyD55aB4c4mF/IjZ9Xmx3KANMHP0EXcLtotpM5CafmkLPT/FrPb59i+fmdHzK"
+      },
+      {
+        "file": "/dist/esm/browser-index.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/browser-index.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/browser-index.js",
+        "integrity": "sha384-fHfjQy9OooXyK8ziClc+l4KRAyMsIQo/WjPUtIc0+SlGy/dABC6j9h9Gu0VBn/QN"
+      },
+      {
+        "file": "/dist/esm/browser-index.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/browser-index.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/browser-index.js.map",
+        "integrity": "sha384-EERqVIwGuUk7EWS+AA0zTQeDeeRPKTHsxv6NV2TNkDBlmqm2pa9GuSJ9sO3CCp5c"
+      },
+      {
+        "file": "/dist/esm/DefaultHttpClient.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/DefaultHttpClient.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/DefaultHttpClient.d.ts",
+        "integrity": "sha384-hV7yin3fKkmqk78LMzHV2mHG8WSVy6rBcFygjU5wQLobNVeYLCSbJe/E1YqaM/mA"
+      },
+      {
+        "file": "/dist/esm/DefaultHttpClient.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/DefaultHttpClient.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/DefaultHttpClient.js",
+        "integrity": "sha384-WLUG9Oi0+mNy9QaGEEnfzLer/57AbTZplY0ImztNEqNpP3/iVV+VHYtXOPdMfang"
+      },
+      {
+        "file": "/dist/esm/DefaultHttpClient.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/DefaultHttpClient.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/DefaultHttpClient.js.map",
+        "integrity": "sha384-vskIyluBCXweOqQ+gqy5R5Rsb3sUWGuummRo+/OkCzm2vj81THss0fZ6Rf+FFMN+"
+      },
+      {
+        "file": "/dist/esm/Errors.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/Errors.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/Errors.d.ts",
+        "integrity": "sha384-xvT2r8r621BQ9zIeWuJTACLMjMu5Dyu8/CBy7mPLg+lNLN5Mc8tcn5tbbCXib8r+"
+      },
+      {
+        "file": "/dist/esm/Errors.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/Errors.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/Errors.js",
+        "integrity": "sha384-NE21KcW8Dw7cVnfcRr8vmIHZw8Oc+0G8oGiXt0t9tD7rk0XhvzkJ721cbyO+/YK4"
+      },
+      {
+        "file": "/dist/esm/Errors.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/Errors.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/Errors.js.map",
+        "integrity": "sha384-JmKrNjxHS2sXayerK9F8njn6v/TEu+LATHqJSG/ZsqELOVA+690jD+DTweCoRVZx"
+      },
+      {
+        "file": "/dist/esm/HandshakeProtocol.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/HandshakeProtocol.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/HandshakeProtocol.d.ts",
+        "integrity": "sha384-9h2ji/gExqcVb5YxGwlVeg8iC3Bp2eIqVcES5CyDfeZAyhjOShninc79dLw1An5D"
+      },
+      {
+        "file": "/dist/esm/HandshakeProtocol.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/HandshakeProtocol.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/HandshakeProtocol.js",
+        "integrity": "sha384-QwBuavQnS+pJjIphWjRp3qRxbpndIvgBU2CdhSN0feN33nj4+Jg5DIkcINyqZAb1"
+      },
+      {
+        "file": "/dist/esm/HandshakeProtocol.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/HandshakeProtocol.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/HandshakeProtocol.js.map",
+        "integrity": "sha384-FcygDVB1srSahCKIRq77Ud2eUebcnCLw1ykMmiSRQSsKZTCsQCRZjBwITw8GC1KQ"
+      },
+      {
+        "file": "/dist/esm/HttpClient.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/HttpClient.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/HttpClient.d.ts",
+        "integrity": "sha384-L3VhWrq/vLmediLZfs2kVj894YHrVlbmqwNaRBdQNe7SnaH366EjZZ8klgvIS8GG"
+      },
+      {
+        "file": "/dist/esm/HttpClient.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/HttpClient.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/HttpClient.js",
+        "integrity": "sha384-dLcREf2ExwL+ybOJFrmY/A+fUiiFcC492+gw9ChJI6XCP/vlGXGkaTvQk5SZ9ZJQ"
+      },
+      {
+        "file": "/dist/esm/HttpClient.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/HttpClient.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/HttpClient.js.map",
+        "integrity": "sha384-LHVyPjrAhBjAoEZJRJlEFPFjjVgPjABXwOx6mOLuPAMmPZItU5rCk9QDrFWe4PRD"
+      },
+      {
+        "file": "/dist/esm/HttpConnection.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/HttpConnection.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/HttpConnection.d.ts",
+        "integrity": "sha384-lCzmxojFmMCiXujtgzk4VqAhXGEkvPTnsPCzGlgrrnQYwCtXGSKauSFCtwdbYV4g"
+      },
+      {
+        "file": "/dist/esm/HttpConnection.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/HttpConnection.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/HttpConnection.js",
+        "integrity": "sha384-IAEm4rwxF9e815RCr4YsFR3rlGm05GSnUfXfzey1mMeu17ut0Y8n/dmUy8IWE0KU"
+      },
+      {
+        "file": "/dist/esm/HttpConnection.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/HttpConnection.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/HttpConnection.js.map",
+        "integrity": "sha384-q6mSToFc3TMCzNwkuLjE3A+KC3rEWWSkgFy/wFJgBn9X7BC85m7mXAierDxMas3y"
+      },
+      {
+        "file": "/dist/esm/HubConnection.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/HubConnection.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/HubConnection.d.ts",
+        "integrity": "sha384-H3LASveUddXfvWKVUBQzpsRlkCAmJVwybe0Tbx0X/tm1bg8KVaUhqLIXNg6vXceE"
+      },
+      {
+        "file": "/dist/esm/HubConnection.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/HubConnection.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/HubConnection.js",
+        "integrity": "sha384-o4L7qBCHOcU3Z+rWsEnYswlx30hgpz7JBwt/rg5+NYuKJmQMR4jw4JJKCVovyjRd"
+      },
+      {
+        "file": "/dist/esm/HubConnection.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/HubConnection.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/HubConnection.js.map",
+        "integrity": "sha384-HY2yVZ+O6jFyTWnK8p6DIGYlofEasaZAyORulSfAgUUdrw44mL2A7tnJ1Yc+O3ge"
+      },
+      {
+        "file": "/dist/esm/HubConnectionBuilder.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/HubConnectionBuilder.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/HubConnectionBuilder.d.ts",
+        "integrity": "sha384-nTGIYQwYw+kZ6c4QYi6R2r8HSQvoGcDoSAci5JoGlAcR3czV2kM2fYmKTN3NAJCH"
+      },
+      {
+        "file": "/dist/esm/HubConnectionBuilder.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/HubConnectionBuilder.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/HubConnectionBuilder.js",
+        "integrity": "sha384-xcbx1PXUR0cia5umRq4K290NHCCtMGZnjRotlv+OF7RJDFhEnUQT6YYn7avkPjxB"
+      },
+      {
+        "file": "/dist/esm/HubConnectionBuilder.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/HubConnectionBuilder.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/HubConnectionBuilder.js.map",
+        "integrity": "sha384-0gkhYw0hiZOFBjSeBE3M7NQfCyV1pisfA5fmoFlMMcQ6Tr4fTxekYmM/puneNGRT"
+      },
+      {
+        "file": "/dist/esm/IConnection.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/IConnection.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/IConnection.d.ts",
+        "integrity": "sha384-I5tovnsDUAvMtbOjmHEcDgZK2oD3mH1h8YoDpgMQY2Iq0AdcXV9WE2i2ULilXZSt"
+      },
+      {
+        "file": "/dist/esm/IConnection.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/IConnection.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/IConnection.js",
+        "integrity": "sha384-ODmIkuLCuLfDP9e73GHtHhMJgmP5BguYAIOxyxQ1jARvZ9Vg9JyEn625EI8Kscmq"
+      },
+      {
+        "file": "/dist/esm/IConnection.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/IConnection.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/IConnection.js.map",
+        "integrity": "sha384-iYZ7mWc97Np/9SEnxF/hwjp1CGRvQOt19ydaT37AfSuBksWdpsSBU7IHjMo82+vr"
+      },
+      {
+        "file": "/dist/esm/IHttpConnectionOptions.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/IHttpConnectionOptions.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/IHttpConnectionOptions.d.ts",
+        "integrity": "sha384-rhS3J1s3XFgyUkeIZqmXZ8FaAUMEgpakIvfhMWdx/JXmPiJ92cKuXdsd58gmT6oa"
+      },
+      {
+        "file": "/dist/esm/IHttpConnectionOptions.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/IHttpConnectionOptions.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/IHttpConnectionOptions.js",
+        "integrity": "sha384-wxKVpIfGvd98ggA05zwfW8aYpIPXa60YdYHWiE5BukEfq0w6CgqmAG+oGcfThOYY"
+      },
+      {
+        "file": "/dist/esm/IHttpConnectionOptions.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/IHttpConnectionOptions.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/IHttpConnectionOptions.js.map",
+        "integrity": "sha384-/VaQtYPvZcfpl+gh+4tr310lq6IrDihzkAKGf1d3fhvgFGbNm5yIJamR7xAkt2kG"
+      },
+      {
+        "file": "/dist/esm/IHubProtocol.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/IHubProtocol.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/IHubProtocol.d.ts",
+        "integrity": "sha384-UYUFgEDCUL5Kyyo4CwNWYeyJaBMMqmRs1lgCjVBxQKlIHP6pTLMMXorI4UAHVHcn"
+      },
+      {
+        "file": "/dist/esm/IHubProtocol.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/IHubProtocol.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/IHubProtocol.js",
+        "integrity": "sha384-/ow5vlZMEO7mo0Db8FkietGrAhWdxE1jkJXoH12pUrk4clXhwkn7geYY2hdrfo2z"
+      },
+      {
+        "file": "/dist/esm/IHubProtocol.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/IHubProtocol.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/IHubProtocol.js.map",
+        "integrity": "sha384-2EEI1xRCJfSMme3OmJoazShYeBbCLIl1cbppSxJVV8YQ8kUOHnTdlREGoC6/tXoM"
+      },
+      {
+        "file": "/dist/esm/ILogger.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/ILogger.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/ILogger.d.ts",
+        "integrity": "sha384-xrOT0TZF76rtd4+ocW986d7VJeTveB7KE4uepCWT6053CyA7cNpEWke0hw5HQSUB"
+      },
+      {
+        "file": "/dist/esm/ILogger.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/ILogger.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/ILogger.js",
+        "integrity": "sha384-ZHw2zlGX6NBrRE3H6AeZtFukRYgf5o1busxxeHD68MdvVjV0FnlaQsWhAyeLGOPf"
+      },
+      {
+        "file": "/dist/esm/ILogger.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/ILogger.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/ILogger.js.map",
+        "integrity": "sha384-cZbC+hIxJn4sjtnE9ygbth2sWZspl71u+UPCYc67vrAHxQ5BI7mpzlSZCf2p2IH2"
+      },
+      {
+        "file": "/dist/esm/index.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/index.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/index.d.ts",
+        "integrity": "sha384-DuWtZh++Itejx5+MYtBeiPO73Mz/cTgLOwoZ6z8Vl1NK/yHJGVR+iUoezrNbdnbO"
+      },
+      {
+        "file": "/dist/esm/index.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/index.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/index.js",
+        "integrity": "sha384-MUoGUbykBB0Qp2oj0l9KW4f3QL0GorEsdzL1F1NJweKNZbKz3fK+TElnrK8VO9Vr"
+      },
+      {
+        "file": "/dist/esm/index.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/index.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/index.js.map",
+        "integrity": "sha384-x0A9RLvO7JjKhNOWyKcIXkjdE1A0+MAhM4JLahBCsKSDkxmhauR1utFL45L8aD+m"
+      },
+      {
+        "file": "/dist/esm/ITransport.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/ITransport.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/ITransport.d.ts",
+        "integrity": "sha384-fr646Cb4foLbxLf+XPFudU1Owv2RP7TudUL+oRNebSUo1WmpYLZJKshEcDw1vBBA"
+      },
+      {
+        "file": "/dist/esm/ITransport.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/ITransport.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/ITransport.js",
+        "integrity": "sha384-RL3OVKJKLDRe+Iue6Zt5qJUgQi6NQA76B3aHX+2JY4Eb0egiN6TEI+9mztpoPd60"
+      },
+      {
+        "file": "/dist/esm/ITransport.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/ITransport.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/ITransport.js.map",
+        "integrity": "sha384-exD8jjRubIaSGnhxAgVsjzKvTrPNIz6d0HL6VacXk+5prC0J254wS8XkXyg9Omu5"
+      },
+      {
+        "file": "/dist/esm/JsonHubProtocol.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/JsonHubProtocol.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/JsonHubProtocol.d.ts",
+        "integrity": "sha384-QWoYCf1vBGdKznzwLd6Qkzv2S+qQ3/kiGNGhWIpzzPbZ+MXwAqEgIUXeGlKq6IRk"
+      },
+      {
+        "file": "/dist/esm/JsonHubProtocol.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/JsonHubProtocol.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/JsonHubProtocol.js",
+        "integrity": "sha384-AWiCkFW6nddaYqoAp3gegw/K6Y8XAS3/V5TXKVLN8yhzvrm+RkalE/0skk5CRQSh"
+      },
+      {
+        "file": "/dist/esm/JsonHubProtocol.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/JsonHubProtocol.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/JsonHubProtocol.js.map",
+        "integrity": "sha384-gPlLNpUgWw0XMIykY7GbME78LsT4FLKPkW5miyRGAeIJu+ykYlRxtKJk68OHThqU"
+      },
+      {
+        "file": "/dist/esm/Loggers.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/Loggers.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/Loggers.d.ts",
+        "integrity": "sha384-Ohy5V2iJqaMoa/ppBEPNlcTbhwCCmwOzf+6ym7ITq48p52PhNFJBxMOaBAdBHjNz"
+      },
+      {
+        "file": "/dist/esm/Loggers.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/Loggers.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/Loggers.js",
+        "integrity": "sha384-MM5FAOR9rZDyGlCpaIlRk1No/HzS5AjorqEsa6f7wpS9th9PdjPR8w5/D0W/dIal"
+      },
+      {
+        "file": "/dist/esm/Loggers.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/Loggers.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/Loggers.js.map",
+        "integrity": "sha384-SDkdDe0WbZqFZIKQMOIA50fg8cBaGB7C6qeq2PMXcQu9DqmZLIaSmDV9EfILz0TX"
+      },
+      {
+        "file": "/dist/esm/LongPollingTransport.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/LongPollingTransport.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/LongPollingTransport.d.ts",
+        "integrity": "sha384-Ja/3+ZHVD9cBUNtBZCUi3eINTuS2GSD5XG23GGpALfx/Fl0WrI1qYHBWO4H488Ha"
+      },
+      {
+        "file": "/dist/esm/LongPollingTransport.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/LongPollingTransport.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/LongPollingTransport.js",
+        "integrity": "sha384-nVq+bsTAIgxuaggMD7PeVL3ngM94dN3DdltGLo4rCOQIBrcHYNLegd3UG4NaV2TF"
+      },
+      {
+        "file": "/dist/esm/LongPollingTransport.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/LongPollingTransport.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/LongPollingTransport.js.map",
+        "integrity": "sha384-x1NON48BeBH7pN/vVuO36+EPT8rUxSyKZtJNAxS1fEPDJzp9/1ND0f8zxBXuDbEx"
+      },
+      {
+        "file": "/dist/esm/NodeHttpClient.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/NodeHttpClient.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/NodeHttpClient.d.ts",
+        "integrity": "sha384-3qwl9wjwcIY5IReWS7J+jfwOrP1A+hX2Digyqx1kqUFItb3QqERVyLKHzqQhKLD2"
+      },
+      {
+        "file": "/dist/esm/NodeHttpClient.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/NodeHttpClient.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/NodeHttpClient.js",
+        "integrity": "sha384-OshG4fqwSUuKns4F7sxxPw1U6RqJb+/GTkFMSRn70+SSd6kGvMRYhxF0QwndUyk/"
+      },
+      {
+        "file": "/dist/esm/NodeHttpClient.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/NodeHttpClient.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/NodeHttpClient.js.map",
+        "integrity": "sha384-IlCAbUouqZHuz7dftvqhFZosqoHbTX3Rn260hwzUgQrKvG245jDy9YjfutgsYEhn"
+      },
+      {
+        "file": "/dist/esm/Polyfills.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/Polyfills.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/Polyfills.d.ts",
+        "integrity": "sha384-Q9mTRS9W5llqAm49QhlK9IphQyhwltHc+C567K1SKYCNcqzMqT+krQS4sHuQ18nG"
+      },
+      {
+        "file": "/dist/esm/Polyfills.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/Polyfills.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/Polyfills.js",
+        "integrity": "sha384-iCQ18FSkXvvEUxIy5fdgTz6BmToY05TVeRw+tcYi0JSbUj8PahwVkwvbu1YYcp/l"
+      },
+      {
+        "file": "/dist/esm/Polyfills.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/Polyfills.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/Polyfills.js.map",
+        "integrity": "sha384-lLPJa0vJRmQQck66G5DC6oPnDTOygRT3zhTVJ+Zq1Q+5Wca7Wq1zS+AUiBnRdN1G"
+      },
+      {
+        "file": "/dist/esm/ServerSentEventsTransport.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/ServerSentEventsTransport.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/ServerSentEventsTransport.d.ts",
+        "integrity": "sha384-m5e4bEa+BnLgOUD5qG3D1LHZLyoKS1nCy2uEQxhg460jF7FP+rt9ytLL1KldBwYg"
+      },
+      {
+        "file": "/dist/esm/ServerSentEventsTransport.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/ServerSentEventsTransport.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/ServerSentEventsTransport.js",
+        "integrity": "sha384-Cn9Jyx6GzCH3NbR6ZoxJ7sexBg/uiHt62Q2X448rn/+AQ3KKIlotqFzAGdkMCGra"
+      },
+      {
+        "file": "/dist/esm/ServerSentEventsTransport.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/ServerSentEventsTransport.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/ServerSentEventsTransport.js.map",
+        "integrity": "sha384-L789UEMBYTnsY02dt16g1Jsh4axNryLt9nbjlFOOaEegCscDjFs5UPlX5IsqnO0l"
+      },
+      {
+        "file": "/dist/esm/Stream.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/Stream.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/Stream.d.ts",
+        "integrity": "sha384-c/GTvFPfTcSJ7Iwugx26N1jfAs3YDaxj2KxBQZ+yCvuHRAx9tW4HtHC1WWAasWdN"
+      },
+      {
+        "file": "/dist/esm/Stream.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/Stream.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/Stream.js",
+        "integrity": "sha384-un8HiHhhR5tbl5F+Hdcmz+RN3/IbeNfp1px5iNgb23rl2kfegwBSu7jhXfBov/wb"
+      },
+      {
+        "file": "/dist/esm/Stream.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/Stream.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/Stream.js.map",
+        "integrity": "sha384-XZkfwOhdW8sfS0lGGjb7YT7PHR7PEdyFj6ZjNclOX8JiTqbTfNJesiVV1mN52AUh"
+      },
+      {
+        "file": "/dist/esm/TextMessageFormat.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/TextMessageFormat.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/TextMessageFormat.d.ts",
+        "integrity": "sha384-yjHNZmY/CLg+hzE8+VG7L+PD9UM+twAQl2ADxhsbFvJ/BLuzciTcs4/aLTGGkY+5"
+      },
+      {
+        "file": "/dist/esm/TextMessageFormat.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/TextMessageFormat.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/TextMessageFormat.js",
+        "integrity": "sha384-YUVt3i3A68GyZmHlnUMlPYLepqjqReDVusZioVyuGUbv994LXlyaSvGC33Q2OWUv"
+      },
+      {
+        "file": "/dist/esm/TextMessageFormat.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/TextMessageFormat.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/TextMessageFormat.js.map",
+        "integrity": "sha384-btRClAqc3heaprQ4cx3+r8UvNDUdMe022RC/X8VYvcnAKu9SMkkoOuH/OKpG4mSS"
+      },
+      {
+        "file": "/dist/esm/Utils.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/Utils.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/Utils.d.ts",
+        "integrity": "sha384-pwoHfjbq2eCgduHiTeHKfodDNv31lusHkv1UhWC49/DA8kXVlqv3kFb/n6jVud3b"
+      },
+      {
+        "file": "/dist/esm/Utils.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/Utils.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/Utils.js",
+        "integrity": "sha384-zRDQcT4QzUMYjeBgLun4JqHjc+4HiY1tERelSlMVTYvL96UDz0F5XZCpFmW/lNy8"
+      },
+      {
+        "file": "/dist/esm/Utils.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/Utils.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/Utils.js.map",
+        "integrity": "sha384-hBFSVaM2qKt2L3+hsmHseDmA0O7ONdF84My7nttQ5vFrl3q9XKS9SbOSayZQlPQe"
+      },
+      {
+        "file": "/dist/esm/WebSocketTransport.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/WebSocketTransport.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/WebSocketTransport.d.ts",
+        "integrity": "sha384-D5FPK1wpHVqGVCs4VD0JqsMD4No9JaTlEeUCT6tAwQOHQwGmGNZDVekKGUee3EOX"
+      },
+      {
+        "file": "/dist/esm/WebSocketTransport.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/WebSocketTransport.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/WebSocketTransport.js",
+        "integrity": "sha384-ub7VuW5PbSVhQCkWMJ/Ci7u0WVmPv4OUtBVrgmu7/leN0nzchbDSbqs7gCGVieUE"
+      },
+      {
+        "file": "/dist/esm/WebSocketTransport.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/WebSocketTransport.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/WebSocketTransport.js.map",
+        "integrity": "sha384-MSE4yLxV3+ltuK/0sg6lhFFEu+Wv4ZpU/Owd9FMMvkn+5ZGicIFkIXDu8nZPTssb"
+      },
+      {
+        "file": "/dist/esm/XhrHttpClient.d.ts",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/XhrHttpClient.d.ts",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/XhrHttpClient.d.ts",
+        "integrity": "sha384-iINIYWAVWC3MgOhCS7Burdyezzg8T6ZC9QXDdWekEvVZnYIldwosOvDPnB8tCdZq"
+      },
+      {
+        "file": "/dist/esm/XhrHttpClient.js",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/XhrHttpClient.js",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/XhrHttpClient.js",
+        "integrity": "sha384-ZNu8AjWFh2XUZotCiDSbm/gZFDEJYCPNl4xz/7Iztm2xVBlW+jIdNqKedegjynpM"
+      },
+      {
+        "file": "/dist/esm/XhrHttpClient.js.map",
+        "cdn": "https://unpkg.com/@aspnet/signalr@1.1.0/dist/esm/XhrHttpClient.js.map",
+        "local": "wwwroot/lib/@aspnet/signalr/esm/XhrHttpClient.js.map",
+        "integrity": "sha384-pXhMbZ4B2MwMLTV8I6LuZj1niXwWqcXp3nuE4WkueJHDAkP4sPtrQsUmmSQkbMjG"
+      }
+    ]
+  }
+}
