@@ -4,10 +4,10 @@ To run this project simply clone it:
 
 ```git clone https://github.com/thedamian/SignalRBasic.git```
 
-then restore the packages 
+then restore the packages:<BR>
 ```dotnet restore```
 
-and run it 
+and run it: <BR>
 ```dotnet run```
 
 Now simply open your server to https://localhost:5001 and wow in the wonder!
