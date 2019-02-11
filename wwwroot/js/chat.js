@@ -8,8 +8,8 @@ document.getElementById("sendButton").disabled = true;
 document.getElementById("messageInput").addEventListener("keyup", function(event) {
     event.preventDefault();
     if (event.keyCode === 13) {
-       // SendMessage();
-       console.log("enter");
+        SendMessage();
+        document.getElementById("messageInput").value = "";
     }
   });
 
