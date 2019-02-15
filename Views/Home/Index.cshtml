@@ -1,28 +1,10 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "On Screen";
 }
-
 <div class="container">
-    <div class="row">&nbsp;</div>
-    <div class="row">
-        <div class="col-12">
-            Your Name: <br />
-            <input type="text" id="userInput" placeholder="Your Name Here"  /><br />
-            Message:<br /> 
-            <input type="text" id="messageInput" placeholder="What to say to the crowd" /><br />
-            <input type="button" id="sendButton" value="Send Message" />
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <hr />
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <ul id="messagesList"></ul>
-        </div>
-    </div>
+    <div class="row">Question:<BR></div>
+    <div class="row" id="questions">No Questions Yet</div>
+    <div class="row" id="position"></div>
 </div>
 <script src="~/lib/aspnet/signalr/browser/signalr.js"></script>
-<script src="~/js/chat.js"></script>
+<script src="~/js/client.js"></script>

@@ -63,8 +63,10 @@ namespace quiz
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    "Default", // Route name
+                    "{controller}/{action}", // URL with parameters*
+                    new { controller = "Home", action = "Index" }
+            );
             });
         }
     }

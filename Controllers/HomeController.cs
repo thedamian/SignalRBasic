@@ -15,6 +15,11 @@ namespace quiz.Controllers
             return View();
         }
 
+        public IActionResult Stage()
+        {
+            return View("stage");
+        }
+
         public IActionResult Privacy()
         {
             return View();
