@@ -7,7 +7,6 @@ namespace quiz.Models
         public string Question;
         public string[] Answers;
         public int CorrectAnswerIndex =0;
-        public string[]     Winners;
 
         public Quiz (string _question, string[] _answers, int _correctAnswerIndex) {
            Question = _question;

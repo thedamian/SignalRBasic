@@ -1,41 +1,66 @@
-"use strict";
-var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
 
-var QuestionIndex = 0;
+const connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
 
-connection.on("NewQuestion", function (message) {
-    
-    if (message.Answers) {
+let QuestionIndex = 0;
+let RightAnswer = 0;
+let QuestionTimeStart =  new Date();
+let players = [];
 
-        document.getElementById("question").innerHTML = message.Question;
-
-        for(var i=0;i<message.Answers.length-1;i++) {
-            var li = document.createElement("li");
-            li.textContent = Question;
+connection.on("NewQuestion", function (QuestionReply) {
+    document.getElementById("answers").innerHTML = "";
+    if (QuestionReply.answers) {
+        document.getElementById("question").innerHTML = QuestionReply.question;
+        QuestionReply.answers.map(a => {
+            const li = document.createElement("li");
+            li.textContent = a;
             document.getElementById("answers").appendChild(li);
-        }
-
-        for (var x=0;i<message.Winners.length-1;i++)
-        {
-            var li = document.createElement("li");
-            li.textContent = Question;
-            document.getElementById("winners").appendChild(li);
-        }
-        
+        });     
+        QuestionTimeStart =  new Date();    
     }
 });
 
-connection.start().then(function(){
+connection.on("NewAnswer", function (PlayerName,AnswerIndex) {
+    console.log("NewAnswer",PlayerName,AnswerIndex)
+    let PlayerFound = false;
+    let PlayerScore = 10000-( new Date()) - QuestionTimeStart;
+    if ( (AnswerIndex != RightAnswer) || PlayerScore < 0)  {
+        PlayerScore = 0;
+    }
+    players.map(p => {
+        if (p.PlayerName == p.PlayerName) {
+            p.PlayerScore += PlayerScore;
+            PlayerFound = true;
+        }
+    });
+    if (!PlayerFound) {
+        players.push({PlayerName:PlayerName,PlayerScore:PlayerScore});
+    }
+    // Sort with the heighest score
+    players.sort((a, b) => b.PlayerScore - a.PlayerScore);
 
-}).catch(function (err) {
-    return console.error(err.toString());
+    players.map(p => {
+        var li = document.createElement("li");
+        li.textContent = p.PlayerName + " Score:" + p.PlayerScore;
+        document.getElementById("winners").appendChild(li);
+    });
+});
+
+connection.start().then(function(){
+    }).catch(function (err) {
+        return console.error(err.toString());
 });
 
 document.getElementById("NextQuestionBtn").addEventListener("click", function (event) {
+    console.log("button clicked!")
     event.preventDefault();
 
-    connection.invoke("NextQuestion", QuestionIndex).catch(function (err) {
+
+    connection.invoke("NextQuestion", QuestionIndex)
+    .then(function() {
         QuestionIndex++;
+        console.log("Next Question called");
+    }).catch(function (err) {
+        
         return console.error(err.toString());
     });
 });
