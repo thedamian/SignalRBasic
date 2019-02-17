@@ -7,8 +7,8 @@ let QuestionTimeStart =  new Date();
 let players = [];
 
 connection.on("NewQuestion", function (QuestionReply) {
-    document.getElementById("answers").innerHTML = "";
     if (QuestionReply.answers) {
+    document.getElementById("answers").innerHTML = "";
         document.getElementById("question").innerHTML = QuestionReply.question;
         QuestionReply.answers.map(a => {
             const li = document.createElement("li");
@@ -16,18 +16,22 @@ connection.on("NewQuestion", function (QuestionReply) {
             document.getElementById("answers").appendChild(li);
         });     
         QuestionTimeStart =  new Date();    
+        RightAnswer = QuestionReply.correctAnswerIndex;
+    } else {
+        document.getElementById("question").innerHTML = "The World";
+        document.getElementById("answers").innerHTML = "Game Ended";
     }
 });
 
 connection.on("NewAnswer", function (PlayerName,AnswerIndex) {
-    console.log("NewAnswer",PlayerName,AnswerIndex)
     let PlayerFound = false;
-    let PlayerScore = 10000-( new Date()) - QuestionTimeStart;
+    let PlayerScore = (new Date()) - QuestionTimeStart;
+    PlayerScore = 10000-PlayerScore;
     if ( (AnswerIndex != RightAnswer) || PlayerScore < 0)  {
         PlayerScore = 0;
     }
     players.map(p => {
-        if (p.PlayerName == p.PlayerName) {
+        if (p.PlayerName == PlayerName) {
             p.PlayerScore += PlayerScore;
             PlayerFound = true;
         }
@@ -37,11 +41,9 @@ connection.on("NewAnswer", function (PlayerName,AnswerIndex) {
     }
     // Sort with the heighest score
     players.sort((a, b) => b.PlayerScore - a.PlayerScore);
-
+    document.getElementById("winners").innerHTML = "";
     players.map(p => {
-        var li = document.createElement("li");
-        li.textContent = p.PlayerName + " Score:" + p.PlayerScore;
-        document.getElementById("winners").appendChild(li);
+        document.getElementById("winners").innerHTML += p.PlayerName + " Score:" + p.PlayerScore+"<BR/>";
     });
 });
 
@@ -51,16 +53,13 @@ connection.start().then(function(){
 });
 
 document.getElementById("NextQuestionBtn").addEventListener("click", function (event) {
-    console.log("button clicked!")
     event.preventDefault();
 
 
     connection.invoke("NextQuestion", QuestionIndex)
     .then(function() {
         QuestionIndex++;
-        console.log("Next Question called");
-    }).catch(function (err) {
-        
+    }).catch(function (err) {       
         return console.error(err.toString());
     });
 });

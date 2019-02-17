@@ -14,13 +14,18 @@ namespace SignalRChat.Hubs
                         };
 
         public async Task NextQuestion(int QuestionIndex) {
-             Debug.Write("NextQuestion called");
-            await Clients.All.SendAsync("NewQuestion" , quizAnswers[QuestionIndex] );
+
+             if (QuestionIndex < quizAnswers.Length) {
+                await Clients.All.SendAsync("NewQuestion" , quizAnswers[QuestionIndex] );
+             } else {
+                await Clients.All.SendAsync("NewQuestion" , new object() );
+             }
+             
         }
 
         public async Task NewAnswer(string PlayerName, int PlayersAnswer) {
                 Debug.Write("NewAnswer called");
-            await Clients.All.SendAsync("NewQuestion" , PlayerName,PlayersAnswer );
+            await Clients.All.SendAsync("NewAnswer" , PlayerName,PlayersAnswer );
         }
 
     }
